@@ -138,12 +138,17 @@
     padding-top: 30px;
 }
 
-.about {
-    display: grid;
-    justify-items: center;
 
+    .about{
+        
+        display: grid;
+        justify-items: center;
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+    }
 
-}
 
 #lorem {
     padding-top: 20px;
@@ -421,25 +426,26 @@ footer {
     #apple {
         width: 130px;
         height: 100px;
-        margin: 90px;
+        margin-left: 250px !important;
+
     }
 
     #facebook {
         width: 130px;
         height: 100px;
-        margin: 90px;
+        margin-left: 250px !important;
     }
 
     #micro {
         width: 130px;
         height: 100px;
-        margin: 90px;
+        margin-left: 250px !important;
     }
 
     #git {
         width: 130px;
         height: 100px;
-        margin: 90px;
+        margin-left: 250px !important;
     }
 
 }
@@ -500,39 +506,30 @@ footer {
     }
     #apple {
         height: 100px;
-        margin-left: 140px !important;
-        /* margin-right: 60px !important; */
+        margin-left: 125px !important;
+        margin-right: 60px !important;
     }
     
     #facebook {
         height: 100px;
-        margin-left: 140px !important;
+        margin-left: 125px !important;
 
     }
     
     #micro {
         height: 100px;
-        margin-left: 140px !important;
+        margin-left: 125px !important;
 
     }
     
     #git {
         height: 100px;
-        margin-left: 140px !important;
+        margin-left: 125px !important;
 
     }
 }
 
 @media (max-width: 400px) {
-    /* .card{
-    position: relative;
-            display:grid;
-            justify-items: center;
-            align-items: center;
-            margin: ;
-            margin-bottom: 20px;
-     
-    } */
     .background h3 {
         left: 10%;
         top: 10%;
@@ -551,30 +548,30 @@ footer {
 
     #apple {
         height: 80px; 
-        margin-left: 90px; 
-        /* margin-left: 90px !important;
-        margin-right:90px !important; */
+        /* margin-left: 90px;  */
+        margin-left: 60px !important;
+        margin-right:60px !important;
     }
     
     #facebook {
         height: 80px;
-        margin-left: 90px;
-        /* margin-left:90px !important; */
-        /* margin-right: 90px !important; */
+        /* margin-left: 90px; */
+        margin-left:60px !important; 
+         margin-right: 60px !important;
     }
     
     #micro {
         height: 80px;
-        margin-left: 90px;
-        /* margin-left:90px !important;
-        margin-right:90px !important; */
+        /* margin-left: 90px; */
+        margin-left:60px !important;
+        margin-right:60px !important;
     }
     
     #git {
         height: 80px;
-        margin-left: 20px;
-        /* margin-left:90px !important;
-        margin-right:90px !important; */
+        /* margin-left: 20px; */
+        margin-left:60px !important;
+        margin-right:60px !important;
     }
 }
 @media (max-width: 300px) {
