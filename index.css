@@ -41,6 +41,19 @@
     top: 20%;
 }
 
+/* student */
+.student{
+    display: grid;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.card{
+    display: inline-flex;
+    margin-left:130px;
+}
 /* our */
 
 #our {
@@ -219,9 +232,17 @@ footer {
 
 
 /* media */
-
+@media (max-width: 1300PX) {
+    .card{
+        display: inline-flex;
+        margin-left:100px;
+    }
+}
 @media (max-width: 1200px) {
-
+    .card{
+        display: inline-flex;
+        margin-left:70px;
+    }
     .background h3 {
         font-size: 20px;
 
@@ -254,7 +275,11 @@ footer {
 }
 
 @media (max-width: 1100px) {
-
+    
+    .card{
+        display: inline-flex;
+        margin-left:40px;
+    }
     #apple {
         width: 80px;
         height: 100px;
@@ -282,6 +307,12 @@ footer {
 }
 
 @media (max-width: 1000px) {
+   
+    
+    .card{
+        display: inline-flex;
+        margin-left:10px;
+    }
 
     #apple {
         width: 80px;
@@ -310,7 +341,13 @@ footer {
 }
 
 @media (max-width: 900px) {
-    
+    .card{position: relative;
+        display:grid;
+        justify-items: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 20px;
+    }
     #btn{
         
         background-color: yellow;
@@ -355,25 +392,25 @@ footer {
         top: 20%;
     }
     #apple {
-        width: 130px;
+        width: 190px;
         height: 100px;
         margin: 90px;
     }
     
     #facebook {
-        width: 130px;
+        width: 190px;
         height: 100px;
         margin: 90px;
     }
     
     #micro {
-        width: 130px;
+        width: 190px;
         height: 100px;
         margin: 90px;
     }
     
     #git {
-        width: 130px;
+        width: 190px;
         height: 100px;
         margin: 90px;
     }
@@ -418,27 +455,31 @@ footer {
         
     }
     #apple {
+        width: 190px;
         height: 100px;
-        margin-left: 85px !important;
-        margin-right: 85px !important;
+        margin-left: 185px !important;
+
     }
     
     #facebook {
+        width: 190px;
         height: 100px;
-        margin-left: 85px !important;
-        margin-right: 85px !important;
+        margin-left: 185px !important;
+
     }
     
     #micro {
+        width: 190px;
         height: 100px;
-        margin-left: 85px !important;
-        margin-right: 85px !important;
+        margin-left: 185px !important;
+
     }
     
     #git {
+        width: 190px;
         height: 100px;
-        margin-left: 85px !important;
-        margin-right: 85px !important;
+        margin-left: 185px !important;
+        /* margin-right: 85px !important; */
     }
 }
 @media (max-width: 500px) {
@@ -455,34 +496,43 @@ footer {
         color: rgb(0, 0, 0);
         width: 30%;
         left: 35%;
-        top: 10%;
+        top: 20%;
     }
     #apple {
         height: 100px;
-        margin-left: 70px !important;
-        margin-right: 70px !important;
+        margin-left: 140px !important;
+        /* margin-right: 60px !important; */
     }
     
     #facebook {
         height: 100px;
-        margin-left: 70px !important;
-        margin-right: 70px !important;
+        margin-left: 140px !important;
+
     }
     
     #micro {
         height: 100px;
-        margin-left: 70px !important;
-        margin-right: 70px !important;
+        margin-left: 140px !important;
+
     }
     
     #git {
         height: 100px;
-        margin-left: 70px !important;
-        margin-right: 70px !important;
+        margin-left: 140px !important;
+
     }
 }
 
 @media (max-width: 400px) {
+    /* .card{
+    position: relative;
+            display:grid;
+            justify-items: center;
+            align-items: center;
+            margin: ;
+            margin-bottom: 20px;
+     
+    } */
     .background h3 {
         left: 10%;
         top: 10%;
@@ -500,30 +550,42 @@ footer {
     }
 
     #apple {
-        height: 80px;
-        margin-left: 90px !important;
-        margin-right:90px !important;
+        height: 80px; 
+        margin-left: 90px; 
+        /* margin-left: 90px !important;
+        margin-right:90px !important; */
     }
-
+    
     #facebook {
         height: 80px;
-        margin-left:90px !important;
-        margin-right: 90px !important;
+        margin-left: 90px;
+        /* margin-left:90px !important; */
+        /* margin-right: 90px !important; */
     }
-
+    
     #micro {
         height: 80px;
-        margin-left:90px !important;
-        margin-right:90px !important;
+        margin-left: 90px;
+        /* margin-left:90px !important;
+        margin-right:90px !important; */
     }
-
+    
     #git {
         height: 80px;
-        margin-left:90px !important;
-        margin-right:90px !important;
+        margin-left: 20px;
+        /* margin-left:90px !important;
+        margin-right:90px !important; */
     }
 }
 @media (max-width: 300px) {
+    .card{position: relative;
+        display:grid;
+        /* justify-items: center;
+        align-items: center;
+        margin: auto; */
+        margin-bottom: 20px;
+    }
+
     .background h3 {
         left: 10%;
         top: 10%;
@@ -542,25 +604,29 @@ footer {
 
     #apple {
         height: 90px;
-        margin-left: 90px !important;
-        margin-right:90px !important;
+        margin: auto;
+        /* margin-left: 90px !important;
+        margin-right:90px !important; */
     }
 
     #facebook {
         height: 90px;
-        margin-left:90px !important;
-        margin-right: 90px !important;
+        margin: auto;
+        /* margin-left:90px !important;
+        margin-right: 90px !important; */
     }
 
     #micro {
         height: 90px;
-        margin-left:90px !important;
-        margin-right:90px !important;
+        margin: auto;
+        /* margin-left:90px !important;
+        margin-right:90px !important; */
     }
 
     #git {
         height: 90px;
-        margin-left:90px !important;
-        margin-right:90px !important;
+        margin: auto;
+        /* margin-left:90px !important;
+        margin-right:90px !important; */
     }
 }
